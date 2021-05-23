@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ## Running The App
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ## Viewing The App
