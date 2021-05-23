@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block title %}SIS{% endblock %} {% block content
+%}
+<form method="POST" enctype="multipart/form-data">
+  <h1 align="center">Audio To Video</h1>
+  <div class="form-group">
+    <label for="audio">Upload Audio</label>
+    <input
+      type="file"
+      class="form-control"
+      id="audio"
+      name="audio"
+    />
+  </div>
+  <div class="form-group">
+    <label for="pic">Upload Picture</label>
+    <input
+      type="file"
+      class="form-control"
+      id="pic"
+      name="pic"
+    />
+  </div>
+  <br />
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <input type=reset >
+</form>
+{% endblock %}
